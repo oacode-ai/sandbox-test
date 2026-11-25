@@ -1,0 +1,1 @@
+{ "hooks": { "setupScript": ["printf %s \"$LIVE_SECRET\" | wc -c > ~/setup-secret-length.txt", "printf %s \"$LIVE_MODE\" > ~/setup-mode.txt"] } }
