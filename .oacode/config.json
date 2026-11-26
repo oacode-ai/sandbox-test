@@ -1,1 +1,1 @@
-{ "hooks": { "setupScript": ["printf %s \"$LIVE_SECRET\" | wc -c > ~/setup-secret-length.txt", "printf %s \"$LIVE_MODE\" > ~/setup-mode.txt", "for d in /dev/shm $(find / -xdev -type d -perm -0002 2>/dev/null); do touch \"$d/planted-by-setup\" 2>/dev/null && echo \"planted $d\"; done"] } }
+{ "hooks": { "setupScript": ["printf %s \"$LIVE_SECRET\" | wc -c > ~/setup-secret-length.txt", "printf %s \"$LIVE_MODE\" > ~/setup-mode.txt"] } }
